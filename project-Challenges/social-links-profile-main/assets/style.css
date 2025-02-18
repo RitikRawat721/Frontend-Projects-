@@ -51,25 +51,25 @@ body {
 img{
     display: block;
     border-radius: 50%;
-    width: 80px;
+    width: 85px;
     margin-top: 6px;
     margin-bottom: 5px;
 }
 
 .name{
-    font-size: 1.5rem;
-    font-weight: var(--fw-400);
-}
-
-.location{
-    margin-top: 5px;
-    font-size: .8rem;
-    color: var(--fc);
+    font-size: 1.7rem;
     font-weight: var(--fw-800);
 }
 
-.about-author{
+.location{
+    margin-top: .8rem;
     font-size: 1rem;
+    color: var(--fc);
+    font-weight: var(--fw-600);
+}
+
+.about-author{
+    font-size: .9rem;
     font-weight: normal;
     color: rgb(211, 207, 207);
     margin-top: 1.5rem;
@@ -91,9 +91,9 @@ img{
     border: none;
     background: var(--bc-darkGrey);
     font-weight: var(--fw-800);
-    font-size: 1rem;
+    font-size: .8rem;
     margin: 1rem .5rem;
-    padding: 12px;
+    padding: 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: color background-color 0.5s ease;

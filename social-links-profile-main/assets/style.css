@@ -71,18 +71,20 @@ img{
     font-size: .6rem;
     font-weight: normal;
     color: rgb(211, 207, 207);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .link-lists{
-    max-width: 100%;
+    width: 100%;
     display: block;
     margin-top: 7px;
     list-style-type: none;
 }
 
 .links{
-    display: inline-block;
-    width: 100%;
+    display: block;
+    max-width: 100%;
     border: none;
     background: var(--bc-darkGrey);
     font-weight: var(--fw-600);

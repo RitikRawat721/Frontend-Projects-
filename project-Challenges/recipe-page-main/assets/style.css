@@ -32,7 +32,7 @@
 body{
     background: var(--fc-container);
     font-family: var(--f-young);
-    font-size: 16px;
+    font-size: 15px;
     color:var(--fc-heading);
 }
 
@@ -65,22 +65,22 @@ h4{
 }
 
 .ingredients-heading,.instructions-heading,.nutrient-heading{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: var(--fw-young400);
 }
 
 .ingredients-heading{
-    margin: 1.5em 0;
-    margin-bottom: 1.3rem;
-}
-
-.instructions-heading,.nutrient-heading{
-    margin-top: 2rem;
+    margin: 1.3em 0;
     margin-bottom: 1rem;
 }
 
+.instructions-heading,.nutrient-heading{
+    margin-top: 1.8rem;
+    margin-bottom: .8rem;
+}
+
 p{
-    line-height: 1.5rem;
+    line-height: 1.4rem;
 }
 
 li, p {
@@ -102,7 +102,7 @@ ol li{
 
 .prep-time-container h4, h2{
     margin-bottom: 10px ;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .prep-time-container ul li{
@@ -111,15 +111,15 @@ ol li{
 }
 
 .prep-time-container ul li + *, li + * {
-    margin-top: .8rem;
+    margin-top: .6rem;
 }
 
 .about-dish{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 hr{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     color: var(--c-hr);
 }
 
@@ -149,7 +149,7 @@ hr{
 } 
 
 .nutrients-description{
-    margin-bottom: .5rem;
+    margin-bottom: .3rem;
 }
 
 
